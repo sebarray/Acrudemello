@@ -65,7 +65,7 @@ body {
   float: right;
   line-height: 100px; }
 
-h1 {
+  .AcruPrincipal {
   font-family: acru, verdana, sans-serif;
   color: #fff;
   font-weight: 400;

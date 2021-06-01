@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+
+@font-face {
+	font-family: acru;
+	src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat Alternates', sans-serif;
+	/*Estilos para la seccion */
+}
+
+p {
+	color: white;
+}
+.titulo {
+	text-align: center;
+	margin-top: 165px;
+	font-size: 60px;
+	color: white;
+
+}
+
+#homes {
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	grid-row-gap: 7vh;
+	margin-bottom: 8vh;
+	margin-top: 7vh;
+}
+
+body {
+	background: rgb(0, 0, 0);
+	background: linear-gradient(180deg, rgba(0, 0, 0, 1) 44%, rgba(43, 43, 43, 1) 100%);
+}
+
+.div__btn--info{
+	width:500px;
+}

@@ -1,0 +1,22 @@
+$colorfoot:#2b2b2b;
+
+footer {
+	background-color: $colorfoot;
+	div {
+		display: inline-block;
+		margin-top: 1vh;
+
+		p {
+			font-size: 13px;
+		}
+	}
+}
+
+#redes {
+	margin-left: 53vw;
+
+}
+
+.red {
+	width: 3vh;
+}

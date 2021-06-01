@@ -1,0 +1,36 @@
+$colorAlbum:#1f1f1f;    
+
+
+.album__tabla {
+	background-color:colorAlbum;
+	color: white;
+	margin: 1em 0;
+	border: 1px solid white;
+	border-collapse: collapse;
+    *{
+        color: white;
+        font-size: 18px;
+    }
+}
+//1
+.album__titulo{
+	margin-top: 3vh;
+	color: white;
+	text-decoration-line: underline;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.gridAlbum {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+#single {
+	display: grid;
+	grid-template-columns: max-content max-content;
+	grid-template-rows: max-content max-content;
+	justify-content: center;
+
+}

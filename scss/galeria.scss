@@ -1,0 +1,23 @@
+//2
+.galeria__imagenes {
+	width: 28vw;
+	height: 21vh;
+}
+
+.galeria__imagenes:hover {
+	transform: scale(1, 2);
+	transition: transform 1s;
+}
+
+.imgGallery {
+	display: grid;
+	grid-template-rows: 35vw 35vw;
+	grid-template-columns: 29vw 29vw;
+	grid-row-gap: 2px;
+}
+
+.div__media {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5vh;
+}

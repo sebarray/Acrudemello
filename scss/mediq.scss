@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1200px) {
+	.imgGallery {
+		display: grid;
+		grid-template-rows: 18vw 10vw;
+		grid-template-columns: 28vw 24vw;
+	}
+
+	.div__media {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20vh;
+	}
+
+	.galeria__imagenes {
+		width: 28vw;
+		height: 36vh;
+	}
+
+	#single {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+	}
+
+	#homes {
+		display: flex;
+		justify-content: start;
+		align-items: center;
+	}
+
+	.gridAlbum {
+		display: grid;
+		justify-content: center;
+		grid-template-rows: auto, auto;
+		grid-template-columns: auto auto;
+	}
+}

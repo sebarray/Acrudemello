@@ -1,0 +1,43 @@
+.about {
+
+	width: 583px;
+	height: 400px;
+	margin-left: 41vw;
+	margin-top: 5vh;
+}
+
+.aboutParrafo {
+	list-style: 22px;
+	color: white;
+	text-align: justify;
+	font-size: 18px;
+}
+.about__titulo{
+	margin-top: 3vh;
+	color: white;
+	text-decoration-line: underline;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.section__About {
+	width: 500px;
+
+}
+
+#fotoAbout {
+	width: 332px;
+	border-radius: 18px;
+	margin-left: 73px;
+}
+
+#containerAbout {
+	display: flex;
+	justify-content: center;
+
+}
+
+hr {
+	width: 500px;
+	height: 5px;
+}

@@ -1,17 +1,148 @@
-@import "generales";
-@import "header";
-@import "menuLateral";
-@import "foot";
-@import "musica";
-@import "galeria";
-@import "about";
-@import "contact";
-@import "mediq";
-//1div__menu
-//2album__titulo
-//3galeria__imagenes
-//4section__About
-//5about__titulo
-//6div__media
-//7album__tabla
-//8 div__btn--info
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap");
+
+@font-face {
+    font-family: acru;
+    src: url(../fonts/Rock_Salt/RockSalt-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+body{
+    background-color:#060709;
+}
+
+.Enlace {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.Error {
+    font-size: 15vw;
+}
+.submenu {
+    position: absolute;
+    background: #212529;
+    width: 75%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+li:hover {.submenu {
+    visibility: visible;
+    opacity: 1;
+}}
+
+.AcruPrincipal {
+    font-family: acru, verdana, sans-serif;
+    color: #fff;
+    font-size: 8vw;
+    text-align: center;
+}
+
+#header__logo {
+    width: 11vw;
+}
+
+.redes {
+    color: white;
+}
+
+#acru1 {
+    width: 650px;
+}
+
+.parrafosFooter {
+    font-size: 2vw;
+    margin: 0;
+}
+
+#infobtn {
+    font-size: 2vw;
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 4vw;
+    color: white;
+}
+
+
+.alto {
+    height: 30vw;
+}
+
+
+.album__titulo {
+    margin-top: 3vh;
+    color: white;
+    text-decoration-line: underline;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.album__tabla {
+    color: white;
+    margin: 1em 0;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+
+.err{
+    margin-top:36vh;
+}
+
+#fotoAbout {
+   border-radius: 20px;
+}
+
+#header__logo:hover {
+	transform: rotateZ(360deg);
+	transition: transform 1s;
+	cursor: pointer;
+}
+
+@media(min-width:548px) {
+    .AcruPrincipal {
+        font-size: 6vw;
+    }
+
+    .titulo {
+        font-size: 3vw;
+    }
+}
+
+@media(min-width:1200px) {
+    .AcruPrincipal {
+        font-size: 4vw;
+    }
+
+    #header__logo {
+        width: 6vw;
+    }
+
+    .parrafosFooter {
+        font-size: 1vw;
+    }
+
+}
+
+@media(max-width:720px) {
+    .parrafosFooter {
+        font-size: 3vw;
+    }
+}

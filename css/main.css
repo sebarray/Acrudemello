@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap");
 @font-face {
   font-family: acru;
@@ -8,197 +7,66 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat Alternates', sans-serif;
-  /*Estilos para la seccion */ }
-
-p {
-  color: white; }
-
-.titulo {
-  text-align: center;
-  margin-top: 165px;
-  font-size: 60px;
-  color: white; }
-
-#homes {
-  display: grid;
-  grid-template-columns: auto;
-  justify-content: center;
-  grid-row-gap: 7vh;
-  margin-bottom: 8vh;
-  margin-top: 7vh; }
+  font-family: 'Montserrat Alternates', sans-serif; }
 
 body {
-  background: black;
-  background: linear-gradient(180deg, black 44%, #2b2b2b 100%); }
+  background-color: #060709; }
 
-.div__btn--info {
-  width: 500px; }
+.Enlace {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+  color: #c7c7c7;
+  border-left: 5px solid transparent;
+  transition: all 400ms ease; }
 
-.header {
-  width: 100%;
-  height: 100px;
-  position: fixed;
-  top: 0;
-  left: 18vw;
-  bottom: 4vh; }
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  width: 71vw;
-  max-width: 1200px;
-  margin: auto;
-  position: fixed; }
-
-.container .btnMenu,
-.logo {
-  float: left;
-  line-height: 100px; }
-
-.container .btnMenu label {
-  color: #fff;
-  font-size: 2vw;
-  cursor: pointer; }
-
-.container .menu {
-  float: right;
-  line-height: 100px; }
-
-  .AcruPrincipal {
-  font-family: acru, verdana, sans-serif;
-  color: #fff;
-  font-weight: 400;
-  font-size: 4vw; }
-
-#header__logo {
-  width: 9vw; }
-
-#header__logo:hover {
-  transform: rotateZ(360deg);
-  transition: transform 1s;
-  cursor: pointer; }
-
-section h2 {
-  text-align: center; }
-
-#acru1 {
-  width: 43vw;
-  border-radius: 70px; }
-
-/*Menù lateral*/
-.capa {
-  position: fixed;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: -1;
-  top: 0;
-  left: 0; }
-
-#btnMenu {
-  display: none; }
-
-.containerMenu {
-  position: fixed;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  transition: all 500ms ease;
-  opacity: 0;
-  visibility: hidden; }
-
-#btnMenu:checked ~ .containerMenu {
-  opacity: 1;
-  visibility: visible; }
-
-#btnMenu:checked ~ .containerMenu .div__menu {
-  transform: translateX(0%); }
-
-.div__menu {
-  width: 100%;
-  max-width: 250px;
-  background: #1c1c1c;
-  height: 100vh;
-  position: relative;
-  transition: all 500ms ease;
-  transform: translateX(-100%); }
-  .div__menu nav {
-    transform: translateY(15%); }
-    .div__menu nav ul li a {
-      display: block;
-      text-decoration: none;
-      padding: 20px;
-      /*  sass2  */
-      color: #c7c7c7;
-      border-left: 5px solid transparent;
-      transition: all 400ms ease; }
-      .div__menu nav ul li a::hover {
-        border-left: 5px solid #c7c7c7;
-        background: #1f1f1f; }
-
-.div__menu label {
-  position: absolute;
-  right: 5px;
-  top: 10px;
-  /*     sass-2             */
-  color: #fff;
-  cursor: pointer;
-  font-size: 18px; }
-
-#menuL:hover {
-  transform: rotate(360deg);
-  transition: transform 1s;
-  cursor: pointer; }
-
-input,
-textarea {
-  color: white; }
+.Error {
+  font-size: 15vw; }
 
 .submenu {
   position: absolute;
-  background: #333333;
-  width: 120%;
-  /* sass -2*/
+  background: #212529;
+  width: 75%;
   visibility: hidden;
   opacity: 0;
   transition: opacity 0.4s; }
-  .submenu li a {
-    display: block;
-    padding: 15px;
-    color: #fff;
-    text-decoration: none; }
 
 li:hover .submenu {
   visibility: visible;
   opacity: 1; }
 
-/*Fin de Menù lateral*/
-footer {
-  background-color: #2b2b2b; }
-  footer div {
-    display: inline-block;
-    margin-top: 1vh; }
-    footer div p {
-      font-size: 13px; }
+.AcruPrincipal {
+  font-family: acru, verdana, sans-serif;
+  color: #fff;
+  font-size: 8vw;
+  text-align: center; }
 
-#redes {
-  margin-left: 53vw; }
+#header__logo {
+  width: 11vw; }
 
-.red {
-  width: 3vh; }
+.redes {
+  color: white; }
 
-.album__tabla {
-  background-color: colorAlbum;
-  color: white;
-  margin: 1em 0;
-  border: 1px solid white;
-  border-collapse: collapse; }
-  .album__tabla * {
-    color: white;
-    font-size: 18px; }
+#acru1 {
+  width: 650px; }
+
+.parrafosFooter {
+  font-size: 2vw;
+  margin: 0; }
+
+#infobtn {
+  font-size: 2vw;
+  padding: 10px;
+  text-decoration: none; }
+
+.titulo {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 4vw;
+  color: white; }
+
+.alto {
+  height: 30vw; }
 
 .album__titulo {
   margin-top: 3vh;
@@ -207,118 +75,37 @@ footer {
   text-align: center;
   margin-bottom: 20px; }
 
-.gridAlbum {
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
-
-#single {
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-template-rows: max-content max-content;
-  justify-content: center; }
-
-.galeria__imagenes {
-  width: 28vw;
-  height: 21vh; }
-
-.galeria__imagenes:hover {
-  transform: scale(1, 2);
-  transition: transform 1s; }
-
-.imgGallery {
-  display: grid;
-  grid-template-rows: 35vw 35vw;
-  grid-template-columns: 29vw 29vw;
-  grid-row-gap: 2px; }
-
-.div__media {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5vh; }
-
-.about {
-  width: 583px;
-  height: 400px;
-  margin-left: 41vw;
-  margin-top: 5vh; }
-
-.aboutParrafo {
-  list-style: 22px;
+.album__tabla {
   color: white;
-  text-align: justify;
-  font-size: 18px; }
+  margin: 1em 0;
+  border: 1px solid white;
+  border-collapse: collapse; }
 
-.about__titulo {
-  margin-top: 3vh;
-  color: white;
-  text-decoration-line: underline;
-  text-align: center;
-  margin-bottom: 20px; }
-
-.section__About {
-  width: 500px; }
+.err {
+  margin-top: 36vh; }
 
 #fotoAbout {
-  width: 332px;
-  border-radius: 18px;
-  margin-left: 73px; }
+  border-radius: 20px; }
 
-#containerAbout {
-  display: flex;
-  justify-content: center; }
+#header__logo:hover {
+  transform: rotateZ(360deg);
+  transition: transform 1s;
+  cursor: pointer; }
 
-hr {
-  width: 500px;
-  height: 5px; }
+@media (min-width: 548px) {
+  .AcruPrincipal {
+    font-size: 6vw; }
+  .titulo {
+    font-size: 3vw; } }
 
-.btnContact {
-  cursor: pointer;
-  padding: 4PX; }
+@media (min-width: 1200px) {
+  .AcruPrincipal {
+    font-size: 4vw; }
+  #header__logo {
+    width: 6vw; }
+  .parrafosFooter {
+    font-size: 1vw; } }
 
-#contact {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-  margin-top: 10vh; }
-
-form {
-  display: inline-block;
-  background-color: #2b2b2b;
-  border-radius: 18px;
-  padding: 10px; }
-
-.label--color {
-  color: white; }
-
-.colorBlack {
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  border: none !important;
-  border: 4px solid rgba(35, 91, 211, 0.8) !important;
-  border-radius: 20px !important; }
-
-@media only screen and (min-width: 1200px) {
-  .imgGallery {
-    display: grid;
-    grid-template-rows: 18vw 10vw;
-    grid-template-columns: 28vw 24vw; }
-  .div__media {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20vh; }
-  .galeria__imagenes {
-    width: 28vw;
-    height: 36vh; }
-  #single {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px; }
-  #homes {
-    display: flex;
-    justify-content: start;
-    align-items: center; }
-  .gridAlbum {
-    display: grid;
-    justify-content: center;
-    grid-template-rows: auto, auto;
-    grid-template-columns: auto auto; } }
+@media (max-width: 720px) {
+  .parrafosFooter {
+    font-size: 3vw; } }

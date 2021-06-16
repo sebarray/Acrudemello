@@ -1,121 +1,141 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<title lang="en">gallery </title>
-	<link rel="stylesheet" href="./css/main.css">
-	<link rel="stylesheet" href="./fonts/style.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-	<script src="js/wow.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Este sitio es un tributo al artista agustina cruz">
+	<meta name="keywords" content="rap, acru, hiphop, musica, agustin cruz, el origen, anonimato, sueños firmes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./fonts/style.css">
+    <script src="https://kit.fontawesome.com/1d0e6413ec.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="js/wow.min.js"></script>
 	<script>
-		new WOW().init();
+	new WOW().init();
 	</script>
 </head>
 
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="btnMenu">
-				<label for="btnMenu">☰ menu</label>
-			</div>
-			<div class="logo">
-				<h2 class="AcruPrincipal">ACRU</h2>
-			</div>
-			<a href="./index.html"><img src="./img/acruL.png" alt="logo de acru" id="header__logo"></a>
-		</div>
-	</header>
-	<div></div>
-	<!--	--------------->
-	<input type="checkbox" id="btnMenu">
-	<div class="containerMenu">
-		<div class="div__menu">
-			<nav>
-				<ul>
-					<li><a href="./index.html" lang="en"><img src="./img/acru.png" width="80px" alt="logo de acru">Home</a> </li>
-					<li><a href="./About.html" lang="en"> <span class="icon-user-circle"></span> About </a>
-						<ul class="submenu">
-							<li><a href="./About.html#acruTitulo">Acru</a></li>
-							<li><a href="./About.html#biografiaTitulo">Biografia</a></li>
-							<li><a href="./About.html#carreraTitulo">Carrera</a></li>
-						</ul>
-					</li>
-					<li><a href="./Music.html" lang="en"> <span class="icon-vynil"></span> Music </a>
-						<ul class="submenu">
-							<li><a href="./Music.html#singleTitulo">sencillo</a></li>
-							<li><a href="./Music.html#albumTiulos">album</a>
-							</li>
-						</ul>
-					</li>
-					<li><a href="./gallery.html" lang="en"> <span class="icon-camera"></span> Gallery</a>
-						<ul class="submenu">
-							<li><a href="./gallery.html#fotosTitulo">fotos</a></li>
-							<li><a href="./gallery.html#videosTitulo">videos</a></li>
-						</ul>
-					</li>
-					<li><a href="./Contact.html" lang="en"> <span class="icon-commenting"></span> Contact</a> </li>
-				</ul>
-			</nav>
-			<label for="btnMenu">✖️</label>
-		</div>
-	</div>
-	<!--	--------------->
-	<h1 class="titulo" id="fotosTitulo">Fotos</h1>
-	<div class="div__media">
-		<section class="imgGallery">
-			<img src="./img/acr1.jpg" alt="foto de acru" class="galeria__imagenes">
-			<img src="./img/acr2.jpg" alt="foto de acru" class="galeria__imagenes">
-			<img src="./img/acr3.jpg" alt="foto de acru" class="galeria__imagenes">
-			<img src="./img/acr4.jpg" alt="foto de acru" class="galeria__imagenes">
-		</section>
-	</div>
 
+    <div class="container ">
+        <Header>
+            <div class="row d-flex justify-content-between">
+                <div class="col-auto ">
+                    <a class=" text-light " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                        aria-controls="offcanvasExample">☰</a>
+                </div>
+                <h2 class=" col-auto    AcruPrincipal  text-center w-auto   tamaño   wow bounceInUp ">ACRU</h2>
+                <a href="./index.html" class="col-3 text-end"><img src="./img/acruL.png" class="img-fluid  "
+                        alt="logo de acru" id="header__logo"></a>
+            </div>
+        </Header>
 
+       
 
+        <nav>
+            <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <a href="./index.html" lang="en" class="Enlace"><img src="./img/acru.png" width="80px"
+                            alt="logo de acru">Home</a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-dark">
+                    <ul>
+                        <li><a href="./About.html" lang="en" class="Enlace"> <span class="icon-user-circle"></span>
+                                About
+                            </a>
+                            <ul class="submenu bg-dark">
+                                <li><a href="./About.html#acruTitulo" class="Enlace">Acru</a></li>
+                                <li><a href="./About.html#biografiaTitulo" class="Enlace">Biografia</a></li>
+                                <li><a href="./About.html#carreraTitulo" class="Enlace">Carrera</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./Music.html" lang="en" class="Enlace"> <span class="icon-vynil"></span> Music </a>
+                            <ul class="submenu bg-dark">
+                                <li><a href="./Music.html#singleTitulo" class="Enlace">sencillo</a></li>
+                                <li><a href="./Music.html#albumTiulos" class="Enlace">album</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="./gallery.html" lang="en" class="Enlace"> <span class="icon-camera"></span>
+                                Gallery</a>
+                            <ul class="submenu bg-dark">
+                                <li><a href="./gallery.html#fotosTitulo" class="Enlace">fotos</a></li>
+                                <li><a href="./gallery.html#videosTitulo" class="Enlace">videos</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./Contact.html" lang="en" class="Enlace"> <span class="icon-commenting"></span>
+                                Contact</a>
+                        </li>
+                        <li>
+                            <a href="./404.html" class="Enlace"><i class="fab fa-avianex  text-light "></i> giras</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1 class="titulo" id="fotosTitulo">FOTOS</h1>
+        <div class="container mb-4">
+            <section>
+                <div class="row d-flex justify-content-end ">
+                    <img src="./img/acr1.jpg" alt="foto de acru" class="col-6 ">
+                    <img src="./img/acr2.jpg" alt="foto de acru" class="col-6 ">
+                </div>
+                <div class="row mt-2">
+                    <img src="./img/acr3.jpg" alt="foto de acru" class="col-6">
+                    <img src="./img/acr4.jpg" alt="foto de acru" class="col-6">
+                </div>
 
-	
-	<h3 class="titulo" id="videoTitulo">videos</h3>
-	<div class="div__media">
-		<section class="imgGallery">
-			<iframe class="galeria__imagenes" src="https://www.youtube.com/embed/OT8ihaDe_iA?controls=0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-			<iframe class="galeria__imagenes" src="https://www.youtube.com/embed/9zc4OSdbD_4?controls=0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-			<iframe class="galeria__imagenes" src="https://www.youtube.com/embed/ie7Xfq_QjsE?controls=0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe></td>
-			<iframe class="galeria__imagenes" src="https://www.youtube.com/embed/zHmNvEHzB0M?controls=0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</section>
-	</div>
+                <h2 class="titulo" id="videosTitulo">VIDEOS</h2>
 
-	<!--	--------------->
-	<footer>
-		<div>
-			<p>Copyright De mello sebastian©</p>
-			<P>Página sin fines de lucro ni comerciales</P>
+                <div class="row  mt-2 mb-1   ">
+                    <iframe class="col-6 alto" src="https://www.youtube.com/embed/OT8ihaDe_iA?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <iframe class="col-6 alto" src="https://www.youtube.com/embed/9zc4OSdbD_4?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+                <div class="row mt-1 ">
+                    <iframe class="col-6 alto" src="https://www.youtube.com/embed/ie7Xfq_QjsE?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe></td>
+                <iframe class="col-6 alto" src="https://www.youtube.com/embed/zHmNvEHzB0M?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
 
-		</div>
-		<div id="redes">
-			<a href="https://www.instagram.com/acru.roman/"> <img src="./img/instagram.png" alt="icono de  instagram" class="red"></a>
-			<a href="https://www.facebook.com/Acruone/"><img src="./img/facebook.png" alt="icono de facebook" class="red"></a>
-		</div>
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-	</script>
+    </div>
+
+    <div class="container-fluid bg-dark wow fadeInLeftBig">
+        <footer>
+            <p class="text-light  col-auto parrafosFooter">Copyright De mello sebastian©</p>
+            <P class="text-light parrafosFooter col-auto">Página sin fines de lucro ni comerciales</P>
+            <div class="row">
+                <a href="https://www.facebook.com/Acruone/" class="col-auto"> <i
+                        class="fab fa-facebook-square redes col-auto"></i></a>
+                <a href="https://www.instagram.com/acru.roman/" class="col-auto"> <i
+                        class="fab fa-instagram redes col-auto"></i> </a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
